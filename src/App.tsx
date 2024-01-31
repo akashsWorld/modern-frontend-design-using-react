@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from './components/Hero'
-import './App.scss'
+import './sass/main.scss'
+
 const App = () => {
   return (
     <div className='body'>

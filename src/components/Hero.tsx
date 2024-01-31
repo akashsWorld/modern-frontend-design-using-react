@@ -1,5 +1,5 @@
 import React from "react";
-import "./Hero.scss";
+import "./../sass/main.scss";
 
 import logo_white from "./../assets/logo-white.png";
 
