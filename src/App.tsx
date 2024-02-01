@@ -1,15 +1,22 @@
-import React from 'react'
-import Hero from './components/Hero'
-import './sass/main.scss'
-import GridTest from './components/GridTest'
+import React from "react";
+import Hero from "./components/Hero";
+import "./sass/main.scss";
+import About from "./components/About";
+// import GridTest from "./components/GridTest";
 
 const App = () => {
   return (
-    <div className='body'>
-      <Hero/>
+    <div className="body">
+      <header>
+        <Hero />
+      </header>
       {/* This test helps to learn calc() and float features. */}
-      <GridTest/>
+      {/* <GridTest/> */}
+
+      <main>
+        <About/>
+      </main>
     </div>
-  )
-}
-export default App
+  );
+};
+export default App;

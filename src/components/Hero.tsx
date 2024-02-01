@@ -5,7 +5,7 @@ import logo_white from "./../assets/logo-white.png";
 
 const Hero = () => {
   return (
-    <header className="header">
+    <div className="header">
       <div className="header__logo-box">
         <img src={logo_white} alt="logo-white" className="header__logo" />
       </div>
@@ -16,7 +16,7 @@ const Hero = () => {
         </h1>
         <a href="/" className="btn btn--white btn--animation">Discover our tours</a>
       </div>
-    </header>
+    </div>
   );
 };
 
