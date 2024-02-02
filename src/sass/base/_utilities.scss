@@ -20,3 +20,7 @@
     color:#fff;
     background-color: $color-primary-dark;
 }
+.u-container-float{
+    float: left;
+    @include clear-fix;
+}

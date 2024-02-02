@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./components/Hero";
 import "./sass/main.scss";
 import About from "./components/About";
+import Features from "./components/Features";
 // import GridTest from "./components/GridTest";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
 
       <main>
         <About/>
+        <Features/>
       </main>
     </div>
   );
