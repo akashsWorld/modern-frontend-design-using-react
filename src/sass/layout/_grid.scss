@@ -1,29 +1,31 @@
 .row {
-    margin: 0 auto;
-    max-width: 114rem;
-  
-    &:not(:last-child){
-        // This line mean select everything accept last child.
-        margin-bottom: $vertical-gutter;
-    }
-  
-    @include clear-fix;
-  
-    [class^= "col-" ]{
-        float: left;
-        height: 100%;
-        padding: 5px;
-        
-        &:not(:last-child){
-            margin-right: $horizontal-gutter;
-        }
-    }
-    
-    .col-1-of-2{
-        width: calc((100% - #{$horizontal-gutter})/2);
-    }
-    .col-1-of-4{
-        width: calc((100% - 3 * #{$horizontal-gutter})/4);
+  margin: 0 auto;
+  max-width: 114rem;
+
+  &:not(:last-child) {
+    // This line mean select everything accept last child.
+    margin-bottom: $vertical-gutter;
+  }
+
+  @include clear-fix;
+
+  [class^="col-"] {
+    float: left;
+    height: 100%;
+    padding: 5px;
+
+    &:not(:last-child) {
+      margin-right: $horizontal-gutter;
     }
   }
-  
+
+  .col-1-of-2 {
+    width: calc((100% - #{$horizontal-gutter}) / 2);
+  }
+  .col-1-of-4 {
+    width: calc((100% - 3 * #{$horizontal-gutter}) / 4);
+  }
+  .col-1-of-3 {
+    width: calc((100% - 2 * #{$horizontal-gutter}) / 3);
+  }
+}

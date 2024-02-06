@@ -1,5 +1,4 @@
 import React from "react";
-import "./../sass/main.scss";
 import FeatureBox from "./FeatureBox";
 
 const Features = () => {

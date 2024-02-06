@@ -27,12 +27,21 @@
       transform: translateY(-0.1rem);
       box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
     }
+
     &--white {
       background-color: #fff;
       color: #777;
   
       &::after {
         background-color: #fff;
+      }
+    }
+    &--green {
+      background-color: $color-primary;
+      color: #fff;
+  
+      &::after {
+        background-color: $color-primary;
       }
     }
   

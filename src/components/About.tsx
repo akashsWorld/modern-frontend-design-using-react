@@ -1,5 +1,4 @@
 import React from "react";
-import "./../sass/main.scss";
 import image1 from "./../assets/nat-1-large.jpg";
 import image2 from "./../assets/nat-2-large.jpg";
 import image3 from "./../assets/nat-3-large.jpg";

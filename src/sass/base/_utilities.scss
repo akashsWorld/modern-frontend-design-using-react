@@ -13,14 +13,10 @@
     margin-bottom: 4rem;
 }
 .u-margin-bottom-small{
-    margin-bottom: 1.5rem;
-    
+    margin-bottom: 1.5rem; 
 }
-.u-btn-green{
-    color:#fff;
-    background-color: $color-primary-dark;
+
+.u-margin-top-big{
+    margin-top: 1.5rem; 
 }
-.u-container-float{
-    float: left;
-    @include clear-fix;
-}
+

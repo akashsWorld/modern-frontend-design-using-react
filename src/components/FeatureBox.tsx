@@ -1,6 +1,4 @@
 import React from "react";
-import "./../sass/main.scss";
-import "./../icon-font.css";
 
 const FeatureBox = ({ iconName, title, about }: any) => {
   return (
