@@ -6,6 +6,7 @@ import "./icon-font.css";
 import About from "./components/About";
 import Features from "./components/Features";
 import TourSection from "./components/TourSection";
+import Stories from "./components/Stories";
 // import GridTest from "./components/GridTest";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <About/>
         <Features/>
         <TourSection/>
+        <Stories/>
       </main>
     </div>
   );

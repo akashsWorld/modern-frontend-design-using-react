@@ -29,7 +29,7 @@ const About = () => {
               atque recusandae dignissimos.
             </p>
             <a href="/" className="btn-text">
-              Learn More &rarr;{" "}
+              Learn More &rarr;
             </a>
           </div>
           <div className="col-1-of-2">
